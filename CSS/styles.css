@@ -1,0 +1,188 @@
+body {
+  background-color: #fffdf6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+}
+
+div {
+  background-color: #fffdf6;
+}
+
+.hello-message {
+  margin: 30px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.75rem;
+  color: #db6400;
+  line-height: 2;
+}
+
+.birds-header {
+  position: absolute;
+  left: 45px;
+  top: 300px;
+}
+
+.footer-link {
+  color: #db6400;
+}
+
+.what-am {
+  font-family: 'Work Sans';
+  font-size: 1.5rem;
+  color: #1687a7;
+  font-weight: 600;
+}
+
+.job-skills {
+  color: #00334e;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.skill-item {
+  color: #145374;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.top-container {
+  background-color: #fffdf6;
+  position: relative;
+  padding: 20px;
+  background: transparent;
+}
+
+.bio-blurb{
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  width: 50%;
+}
+
+.blurb-p{
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.hi-bio{
+  margin-bottom: 10px;
+}
+
+.middle-container{
+  color:#00334e;
+}
+
+.bottom-container{
+  color:#1687a7;
+  padding: 50px;
+}
+
+.btn {
+  color: #db6400;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.contact-me {
+  color: #00334e;
+  line-height: 0.5;
+  margin-top: 250px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: solid;
+  margin: auto;
+  width: 40%;
+  color: #1687a7;
+}
+
+.my-skills{
+  margin: 50px 0 100px 0;
+  text-align: center;
+  font-size: 2.18em;
+  color: #db6400;
+
+}
+
+.skill-row{
+  width: 50%;
+  position: relative;
+  left: 25%;
+  text-align: left;
+  color: #145374;
+}
+
+.skill-1{
+  float: left;
+  width: 12%;
+  position: relative;
+  bottom: 30px;
+}
+
+.skill-row2{
+  text-align: right;
+  position: relative;
+  right: 25%;
+  color: #145374;
+}
+
+.job-skills2{
+margin-bottom: 0;
+
+}
+
+.skill-item2{
+font-weight: 400;
+margin-top: 5px;
+}
+
+.skill-2{
+  float: right;
+  width: 5%;
+  position: relative;
+  bottom: 30px;
+}
+
+/*BUTTONS*/
+
+.table-buttons{
+  width: auto;
+  display: table;
+  position: absolute;
+  left: 15px;
+  top: 26%;
+  z-index: 2;
+}
+
+.BUTTON{
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #145374;
+   font-family: 'Work Sans';
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #fffdf6;
+   text-shadow: 0 0 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON:hover {
+   background: #e8e8e8;
+   border: solid #e8e8e8 1px;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+   text-decoration: none;
+}
